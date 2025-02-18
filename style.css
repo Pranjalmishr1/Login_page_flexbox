@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./bg.jpg);
+      width: 100 vw;
+      height: 100vh;
+      background-size: cover;
+      
+      /* background-position: center;
+      background-repeat: no-repeat; */
+}
+.loginpage{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    border-radius: 30px;
+    background-color: rgba(250, 235, 215, 0.336);
+    backdrop-filter:blur(1px);
+
+
+    /* flex box cointain two iten flexbox cointainer and flexbox item  use justify content and align content justify content 
+    uses same axis and align axis uses cross axis defail main axis is row
+*/
+}
+.logindetails{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.detail{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 25px;
+}
+h1{
+    font-family: "Montserrat", serif;
+    font-size: 80px;
+}
+input[type="text"],input[ type="password"]{
+    /* width :50%; */
+    /* height:60px;
+    border-radius: 20px; */
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+label {
+    cursor: pointer; 
+}
+
+
+    /* font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
+  
+
+
+
+button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+   
+    background:linear-gradient(40deg, rgba(105, 105, 98, 0.408), rgba(255, 255, 255, 0.508));
+    border-radius: 10px;
+}
+p{
+    cursor: pointer;
+    text-decoration: underline;
+}
